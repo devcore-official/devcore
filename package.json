@@ -14,8 +14,10 @@
     "nodejs": "",
     "python": "",
     "swift": "",
+    "php": "",
+    "go": "",
     "bash": "",
-    "php": ""
+    "powershell":""
 
   }
 }
