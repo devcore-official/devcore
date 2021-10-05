@@ -1,0 +1,91 @@
+
+
+
+DEV-CORE is a language agnostic library with carefully chosen normalized names.
+We want our code to run anywhere. Whether it's a different programming language, enviroment, 
+or machine architecture. 
+It's registry does not allow duplications. No duplicate function names,
+no duplicate params, nothing is repeated. Every is structured to avoid
+any kind of collisions. DevCores intention aims towards IAC. This library
+is not concerned about any machine architecture. It just makes the code work
+and perform as optimal as possible. DevCore will test your code on languages,
+and recommend you use the fastest language or combos of languages it recognizes
+to be most optimal.
+
+DevCores point of view is code. Not machines. So it can make one or many machines implement that
+code wheter it's distributed, decentralized, parallel, or even shared. It will run everywhere,
+browser, server, phone, raspberry pi, whatever. It will run and combine as many computers together 
+as possible because its point view is that plurals are only divisions.
+
+DevCore recognizes datastructures influence performance. 
+We implemented all the the computer science classical datastructures.
+We also built a datastructure assembler optimal for your use case. 
+There is also a smart datastructure that morphes it's structure 
+based on how it's being used. For example, if it recognizes it 
+accesses a narrow portion of information, it will compress the remaining information
+and or remove from RAM into storage. It will also move information to a lower latent machine.
+This means it could move information farther away from requestor but that information is 
+received faster because of faster network or cpu or lower traffic.
+
+
+
+
+DevCores layered architecture allows it to be rossetta / language agnostic. 
+
+    0 layer is target programming languages implementation. Only the language creators maintain that. 
+
+    1st layer is target programming language. This is the only time the target programming language syntax, operators, builtin
+    methods are allowed to be written. This layer is also the fault tolerant layer, everything must execute. Your only purpose for this
+    layer is to write language specific code for the second layer to use.
+
+    2nd layer is the instruction layer. Practically any widely used programming language has function names with invokable 
+    syntax such as "Array(3).fill(0)". This layer is meant to be binded/adapted to your target platform
+
+    3rd layer and above are all architecture layers.
+
+
+
+    Layer 4: Architectures - DevCore Language
+
+        Layer 3: Instructions - DevCore Language
+
+            Layer 2: Instruction - Target Language/s Specific
+
+
+                js: function add(a,b) {
+
+                        Layer 1: - Target Language/s Specific
+
+                        a + b           Layer 0 -> how the "+" operator is implemented in target languages engine
+                    
+                },
+
+                py: def add(a,b) {
+
+                        Layer 1: - Target Language/s Specific
+
+                        a + b           Layer 0 -> how the "+" operator is implemented in target languages engine
+                },
+
+                php: function add(a,b) {
+
+                        a + b
+                },
+
+                bash: add() {
+
+                    $sum = $a + $b
+                },
+
+                swift: func add(a: Int, b: Int) {
+                    sum = a + b
+                }
+                
+
+
+Download languages
+
+Download languages package managers
+
+
+
