@@ -35,7 +35,8 @@ ruby:[
     // declaration // syntax      // assignable stage // redeclarable // reassignable // scope   // hoisted
     [`none`,  `$<name> = <value>`,       `init`,      `no`,        `re`,              `global`, `stagnant`],
     [`@@`, `<decl> <name> = <value>`,    `init`,      `no`,        `re`,              `class`, `stagnant`],   
-    // [`define`,`<decl>('<name>', <value>)`,   `init`,      `??`,        `??`,              `block`, `stagnant`],    
+    [`none`,`<decl> <Name> = <value>`,   `init`,      `no`,        `no`,              `block`, `stagnant`],
+    // [`self`, `<decl>.<name>`]    
 ],
 perl:       "",
 lua:        "",
