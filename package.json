@@ -4,20 +4,46 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "install-all": "node install-all-languages.js"
+
   },
   "author": "",
   "license": "ISC",
   "languages": {
 
-    "javascript": "",
-    "nodejs": "",
-    "python": "",
-    "swift": "",
-    "php": "",
-    "go": "",
     "bash": "",
-    "powershell":""
+    "powershell":"",
+    "VBA":"",
+
+    "javascript": "",
+    "nodejs": "bash nodejs-install.bash",
+    "python": "bash python-install.bash",
+    "php": "bash php-install.bash",
+    "ruby":"bash ruby-install.bash",
+    "perl":"bash perl-install.bash",
+    "lua":"bash lua-install.bash",
+    "r":"bash R-install.bash",
+    "lisp":"bash lisp.install.bash",
+
+    "kotlin":"",
+
+    "swift": "bash swift-install.bash",
+    "go": "bash go-install.bash",
+    "java": "bash java-install.bash",
+    
+    "c++": "",
+
+    "c":"",
+    "rust":"",
+    "fortran":"",
+
+    "x86":"",
+    "arm32":"",
+    "arm64":"",
+
+    "web assembly":""
 
   }
 }

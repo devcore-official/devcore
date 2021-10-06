@@ -1,10 +1,10 @@
 
 
 
-DEV-CORE is a language agnostic library with carefully chosen normalized names.
+DEV-CORE is an unglued language agnostic library with carefully chosen normalized names.
 We want our code to run anywhere. Whether it's a different programming language, enviroment, 
-or machine architecture. 
-It's registry does not allow duplications. No duplicate function names,
+machine architecture, or operating system. 
+DEV-CORE registry does not allow duplications. No duplicate function names,
 no duplicate params, nothing is repeated. Every is structured to avoid
 any kind of collisions. DevCores intention aims towards IAC. This library
 is not concerned about any machine architecture. It just makes the code work
@@ -49,6 +49,8 @@ DevCores layered architecture allows it to be rossetta / language agnostic.
 
         Layer 3: Instructions - DevCore Language
 
+            *** absolutely no reference to target symbols
+
             Layer 2: Instruction - Target Language/s Specific
 
 
@@ -83,9 +85,10 @@ DevCores layered architecture allows it to be rossetta / language agnostic.
                 
 
 
-Download languages
+source: https://www.bigmountainanalytics.com/modules-packages-and-repositories-oh-my/
 
-Download languages package managers
+Think of modules as a single page of information, packages as folders containing many pages, and repositories as a filing cabinet.
 
 
+module <= package <= repository 
 
