@@ -52,11 +52,25 @@ go:[
     [`var`,  `<decl> <name> <type> = <value>`,       `post`,      `no`,        `re`,              `block`, `stagnant`],
     [`const`,`<decl> <name> <type> = <char | string, boolean, numeric>`,       `post`,      `no`,        `re`,              `block`, `stagnant`]
 ],         
-java:       "",
-cpp:        "",
-c:          "",
-"c#":       "",
-rust:       "",
+java:[
+    [`none`,  `<ifConst> <type> <name> = <value>`,       `post`,      `no`,        `re`,              `block`, `stagnant`],
+],
+cpp:[
+    [`none`,  `<ifConst> <type> <name> = <value>`,       `post`,      `no`,        `re`,              `block`, `stagnant`],
+],
+c:[
+    [`none`,  `<type> <name> = <value>`,       `post`,      `no`,        `yes`,             `block`, `stagnant`],
+    [`none`,  `const <type> <name> = <value>`, `init`,      `no`,        `no`,              `block`, `stagnant`],
+    [`none`,  `#define <name> <value>`,        `init`,      `no`,        `no`,              `block`, `stagnant`],
+],
+"c#":[
+    [`none`,  `<type> <name> = <value>`,       `post`,      `no`,        `yes`,             `block`, `stagnant`],
+    [`none`,  `const <type> <name> = <value>`, `init`,      `no`,        `no`,              `block`, `stagnant`],
+],
+rust:[
+    [`let`,  `<decl> <mut> <name>:<type> = <value>`,       `post`,      `no`,        `yes`, `block`, `stagnant`],
+    [`const`,`<decl> <name>:<type> = <value>`,             `init`,      `no`,        `no`,  `block`, `stagnant`],
+],
 fortran:    "",
 x86:        "",
 arm32:      "",
