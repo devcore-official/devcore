@@ -2,6 +2,9 @@
 
 
 DEV-CORE is an unglued language agnostic library with carefully chosen normalized names.
+The way it's been explained is manhours cost more than computer performance, so making your code 
+run everywhere is the most logical thing. Plus the sections that require performance needing the hand optimization
+to it so then be free to do every trick to the computer language.
 We want our code to run anywhere. Whether it's a different programming language, enviroment, 
 machine architecture, or operating system. 
 DEV-CORE registry does not allow duplications. No duplicate function names,

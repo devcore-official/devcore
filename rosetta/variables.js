@@ -7,7 +7,6 @@ name: "",
 
 // case sensitive
 
-
 javascript: 
 [    // declaration // syntax      // assignable stage // redeclarable // reassignable // scope   // hoisted
     [`var`, `var <name> = <value>`,    `post`, `re`,            `re`,             `global`, `hoisted`],
@@ -38,13 +37,21 @@ ruby:[
     [`none`,`<decl> <Name> = <value>`,   `init`,      `no`,        `no`,              `block`, `stagnant`],
     // [`self`, `<decl>.<name>`]    
 ],
-perl:       "",
+perl: [    
+    // declaration // syntax      // assignable stage // redeclarable // reassignable // scope   // hoisted
+/*scalar*/[`$`,  `<decl><name> = <integer | string | float>`,       `init`,      `no`,        `re`,              `block`, `stagnant`],
+/*array*/ [`@`,  `<decl><name> = <array>`,  `init`,      `no`,        `re`,              `block`, `stagnant`],
+/*hash*/  [`%`,  `<decl><name> = <hash>`,   `init`,      `no`,        `re`,              `block`, `stagnant`],
+],
 lua:        "",
 r:          "",
 lisp:       "",
 kotlin:     "",
 swift:      "",
-go:         "",
+go:[
+    [`var`,  `<decl> <name> <type> = <value>`,       `post`,      `no`,        `re`,              `block`, `stagnant`],
+    [`const`,`<decl> <name> <type> = <char | string, boolean, numeric>`,       `post`,      `no`,        `re`,              `block`, `stagnant`]
+],         
 java:       "",
 cpp:        "",
 c:          "",
