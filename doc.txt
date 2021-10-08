@@ -1,12 +1,20 @@
+Inspired by Esperanto, Mathematics, and Singularity.
 
+MISSION: run anywhere.
 
+If you want to discover then push things to the limit. 
+Construct quote on quote redicoulous use cases.
+Being specific is a recursive trap creating mental borders
+and unreasuable code. In physics there are "building blocks"
+but in math there are only equivalent translations. 
+Computing has no building blocks.
 
 DEV-CORE is an unglued language agnostic library with carefully chosen normalized names.
 The way it's been explained is manhours cost more than computer performance, so making your code 
 run everywhere is the most logical thing. Plus the sections that require performance needing the hand optimization
 to it so then be free to do every trick to the computer language.
 We want our code to run anywhere. Whether it's a different programming language, enviroment, 
-machine architecture, or operating system. 
+machine architecture, or operating system.
 DEV-CORE registry does not allow duplications. No duplicate function names,
 no duplicate params, nothing is repeated. Every is structured to avoid
 any kind of collisions. DevCores intention aims towards IAC. This library
@@ -15,12 +23,17 @@ and perform as optimal as possible. DevCore will test your code on languages,
 and recommend you use the fastest language or combos of languages it recognizes
 to be most optimal.
 
+DevCore is a common language that transpiles into many popular general programming 
+languages. It alse plots source to source transpilation pathways that other programming
+languages offer. 
+
 DevCores point of view is code. Not machines. So it can make one or many machines implement that
 code wheter it's distributed, decentralized, parallel, or even shared. It will run everywhere,
 browser, server, phone, raspberry pi, whatever. It will run and combine as many computers together 
-as possible because its point view is that plurals are only divisions.
+as possible because its point view is that plurals are only divisions. The universe may or not be infinite
+but to use the word create in software rather than the word craft disrespects science laws.....
 
-DevCore recognizes datastructures influence performance. 
+DevCore recognizes good datastructures are the most important program optimization.
 We implemented all the the computer science classical datastructures.
 We also built a datastructure assembler optimal for your use case. 
 There is also a smart datastructure that morphes it's structure 
@@ -29,6 +42,9 @@ accesses a narrow portion of information, it will compress the remaining informa
 and or remove from RAM into storage. It will also move information to a lower latent machine.
 This means it could move information farther away from requestor but that information is 
 received faster because of faster network or cpu or lower traffic.
+
+DevCore can split up your code into many languages with dataflow still connected.
+DevCore can split up your code to many api's to many machines whatever.
 
 
 
