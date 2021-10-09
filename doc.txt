@@ -111,3 +111,11 @@ Think of modules as a single page of information, packages as folders containing
 
 module <= package <= repository 
 
+
+
+cross platform shell
+
+    https://github.com/batsh-dev-team/Batsh
+
+universal transpiler 
+    https://github.com/jarble/transpiler
