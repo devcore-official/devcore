@@ -1,5 +1,0 @@
-
-
-FUNCTIONAL
-
-OOP
