@@ -9,6 +9,7 @@
 const express = require("express");
 const app = express();
 const execSync = require("child_process").execSync;
+const https = require("https");
 ////////////////////////
 
 const defaultPort = 8080;
@@ -58,20 +59,31 @@ Object.keys(deps).filter((dep)=>{ return dep !== "express" }).forEach(
 	(dep,index)=>{
 
 
-		apis.push(
-			{	
-				port 		:(defaultPort + index), 
-				servicename	:(deps),
-				url			:`localhost:${defaultPort + index}`,
-			    serviceCB	:require(dep),
-			    app         :app
-			}
-		)
+	try {
 
-		app.listen(apis[index].port);
-		pingServicesEverySecond:
-		setInterval(()=>{
-			https.request(apis[index].url).then()
-		},1000);
+			apis.push(
+				{	
+					port 		:(defaultPort + index), 
+					servicename	:(deps),
+					url			:`https://localhost:${defaultPort + index}`,
+				    serviceCB	:require(dep),
+				    app         :app
+				}
+			)
+
+			app.listen(apis[index].port);
+				pingServicesEverySecond:
+			setInterval(()=>{
+				// https.request(apis[index].url).then()
+				console.log("need to ping apis every second", new Date());
+			},1000);
+
+
+
+	} catch(error){
+
+		console.log("api didn't load", dep)
+
+	}
 	}
 );
