@@ -51,10 +51,6 @@ let deps = require("./package.json").dependencies
 // execSync ("cd ./node_modules && git clone https://github.com/devcore-official/spec-dev.git")
 // execSync ("cd ./node_modules && git clone https://github.com/devcore-official/stay-alive.git")
 
-// execSync("npm install");
-// execSync("npm install");
-
-
 Object.keys(deps).filter((dep)=>{ return dep !== "express" }).forEach(
 	(dep,index)=>{
 
