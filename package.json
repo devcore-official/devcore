@@ -29,8 +29,8 @@
     "schematics": "git+https://github.com/devcore-official/schematics#main",
     "spec-dev": "git+https://github.com/devcore-official/spec-dev#main",
     "stay-alive": "git+https://github.com/devcore-official/stay-alive#main",
-    "automated-version-management":  "git+https://github.com/devcore-official/automated-version-management#main",
+    "automated-version-management": "git+https://github.com/devcore-official/automated-version-management#main",
     "automated-version-integration": "git+https://github.com/devcore-official/automated-version-integration#main",
-    "automated-software-update":     "git+https://github.com/devcore-official/automated-software-update#main",
+    "automated-software-update": "git+https://github.com/devcore-official/automated-software-update#main"
   }
 }
